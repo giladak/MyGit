@@ -15,3 +15,15 @@ A folder that contains my implementations for the following data structs:
 - priority queue (heap based)
 - soted list
 - trie
+
+in addition the library contains implemenatations of the following sorts:
+
+- insertion
+- bubble
+- selection
+- counting
+- quick sort
+- radix
+
+
+
