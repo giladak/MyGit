@@ -1,11 +1,3 @@
-/*
-	dev : Gilad Kahn
-	rev : Tomer Fridman
-	status: approved
-	date: 21.2.22
-*/
-
-
 
 #include <stdio.h>   /*for*/
 #include <stdlib.h>  /*malloc*/

@@ -7,14 +7,6 @@
 #define EMPTY 0
 
 
-
-/*
-	dev : Gilad Kahn
-	rev : Alon Levy
-	status: approved
-	date: 04.01.22
-*/
-
 stack_t *StackCreate(size_t capacity, size_t element_size)
 {	
 	
@@ -37,14 +29,6 @@ stack_t *StackCreate(size_t capacity, size_t element_size)
 	return (stack);
 }
 
-/*
-	dev : Gilad Kahn
-	rev : Alon Levy
-	status: approved
-	date: 04.01.22
-*/
-
-
 void StackDestroy(stack_t *stack)
 {	
 	assert(NULL != stack);	
@@ -52,25 +36,17 @@ void StackDestroy(stack_t *stack)
 	free(stack);
 }
 
-/*
-	dev : Gilad Kahn
-	rev : Alon Levy
-	status: approved
-	date: 04.01.22
-*/
-	
+
+
+
+
 void StackPop(stack_t *stack)
 {	
 	assert (NULL != stack);	
 	
 	--(stack -> size);
 }
-/*
-	dev : Gilad Kahn
-	rev : Alon Levy
-	status: approved
-	date: 04.01.22
-*/
+
 
 void StackPush(stack_t *stack, const void *element)
 {	
@@ -81,12 +57,9 @@ void StackPush(stack_t *stack, const void *element)
 	++(stack -> size);	
 }
 
-/*
-	dev : Gilad Kahn
-	rev : Alon Levy
-	status: approved
-	date: 04.01.22
-*/
+
+
+
 
 void *StackPeek(const stack_t *stack)
 {
@@ -95,12 +68,10 @@ void *StackPeek(const stack_t *stack)
 	return ((stack -> start_stack) + ((stack -> size) - 1)*(stack -> element_size)); 
 }
 
-/*
-	dev : Gilad Kahn
-	rev : Alon Levy
-	status: approved
-	date: 04.01.22
-*/
+
+
+
+
 
 int StackIsEmpty(const stack_t *stack)
 {	
@@ -109,26 +80,19 @@ int StackIsEmpty(const stack_t *stack)
 	return (EMPTY == stack -> size);
 }
 
-/*
-	dev : Gilad Kahn
-	rev : Alon Levy
-	status: approved
-	date: 04.01.22
-*/
+
+
+
 
 size_t StackSize(const stack_t *stack)
 {
 	assert (NULL != stack);
 	
 	return (stack -> size);
-}	
+}
 
-/*
-	dev : Gilad Kahn
-	rev : Alon Levy
-	status: approved
-	date: 04.01.22
-*/
+
+
 
 size_t StackCapacity(const stack_t *stack)
 {	

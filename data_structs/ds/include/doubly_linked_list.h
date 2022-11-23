@@ -1,10 +1,4 @@
-/**************************************************************************
 
-	dev : Gilad Kahn
-	rev: Vitali + Sara
-	status: approved
-	date: 16.1.22
-*******************************************************************/
 
 #ifndef DOUBLY_LINKED_LIST_H
 #define DOUBLY_LINKED_LIST_H

@@ -1,9 +1,4 @@
-/*
-	dev : Gilad Kahn
-	rev : Tomer Fridman
-	status: approved
-	date: 21.2.22
-*/
+
 
 #include <stdio.h>
 #include <string.h>

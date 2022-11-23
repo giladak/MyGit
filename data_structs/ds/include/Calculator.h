@@ -1,9 +1,3 @@
-/*
-	dev : Gilad Kahn
-	rev : Daniel Gabay
-	status: approved
-	date: 15.02.22
-*/
 
 typedef struct calculator calc_t;
 

@@ -1,9 +1,4 @@
-/*
-	dev :
-	rev : 
-	status: 
-	date: 
-*/
+
 
 #include <stdio.h>
 

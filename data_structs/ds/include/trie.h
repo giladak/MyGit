@@ -20,26 +20,3 @@ int TrieIsEmpty(const trie_t *trie);
 size_t TrieCount(const trie_t *trie);
 
 #endif /* TRIE_H */
-
-
-
-/*
-static trie_node_t *FindNextSubTreeParent(trie_node_t *sub_tree_root, char *string, char **path_split_point)
-{
-	trie_node_t *return_node = NULL;
-
-	while (*string != '\0')
-	{
-		if (*string != RIGHT && FULL != sub_tree_root->child[RIGHT]->is_full)
-		{
-			path_split_point = &string;
-			return_node = sub_tree_root;
-		}
-
-		sub_tree_root = sub_tree_root->child[*string];
-		++string;
-	}
-
-	return (return_node);
-}
-*/

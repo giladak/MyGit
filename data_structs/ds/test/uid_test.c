@@ -1,10 +1,4 @@
-/**************************************************************************
 
-	dev : Gilad Kahn
-	rev: Vitali
-	status: approved
-	date: 18.1.22
-*******************************************************************/
 
 #include <stdio.h>  /*printf*/
 #include <stdlib.h> /*size_t*/
@@ -13,26 +7,6 @@
 
 #include "uid.h"
 
-
-
-
-
-/*
-	if (  != )
-	{
-		printf ("error in test 1 \n");
-	}
-	
-	if (  != )
-	{
-		printf ("error in test 2 \n");
-	}
-	
-	if (  != )
-	{
-		printf ("error in test 3 \n");
-	}   
-*/
 
 
 

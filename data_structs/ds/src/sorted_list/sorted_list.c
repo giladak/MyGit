@@ -1,10 +1,4 @@
-/**************************************************************************
 
-	dev : Gilad Kahn
-	rev: Vitali
-	status: approved
-	date: 18.1.22
-*******************************************************************/	
 
 
 #include <stdio.h>  /*size_t, for, while*/
@@ -14,11 +8,11 @@
 #include "doubly_linked_list.h"
 #include "sorted_list.h"
 
-struct sorted_list /*only in c file*/
+struct sorted_list
 {
     dll_t *list;
     int (*cmp)(const void*, const void*);
-};/*sorted_list*/
+};
 
 typedef struct cmp_struct
 {

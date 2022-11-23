@@ -1,10 +1,3 @@
-/*
-	dev : Gilad Kahn
-	rev : Tomer Fridman
-	status: approved
-	date: 21.2.22
-*/
-
 
 #ifndef HASH_TABLE_H
 #define HASH_TABLE_H

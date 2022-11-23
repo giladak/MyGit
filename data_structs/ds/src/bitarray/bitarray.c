@@ -1,10 +1,3 @@
-/*
-	dev: Gilad Kahn
-	review: Alon Levy
-	status: approved
-	date: 3.1.22 
-*/
-
 
 #include <stdio.h>  /*printf*/
 #include <stdlib.h> /*size_t*/

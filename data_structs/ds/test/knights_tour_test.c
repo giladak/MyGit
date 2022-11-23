@@ -1,9 +1,3 @@
-/*
-	dev : Gilad Kahn
-	rev : Alon Twig
-	status: approved
-	date: 06.03.22
-*/
 
 
 #include <stdio.h> /*for*/

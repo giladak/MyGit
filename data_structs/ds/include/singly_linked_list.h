@@ -1,13 +1,9 @@
-/**************************************************************************
-
-	dev : Gilad Kahn
-	rev: Daniel Gabay
-	status: approved
-	date: 10.1.22
-*******************************************************************/
 
 #ifndef LINKED_LIST_H
 #define LINKED_LIST_H
+
+
+
 #include <stddef.h> /*size_t*/
 
 

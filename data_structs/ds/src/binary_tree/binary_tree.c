@@ -1,10 +1,3 @@
-/*
-	dev : Gilad Kahn
-	rev : 
-	status: approved
-	date: 10.2.22
-*/
-
 
 #include <stdio.h> /*for*/
 #include <stdlib.h> /*malloc*/
@@ -23,12 +16,6 @@
 
 #define TREE_PARAM *(int*)tree->param
 
-
-
-/*
-typedef struct binary_tree binary_tree_t;                
-typedef struct binary_tree_node *binary_tree_iterator_t;
-*/
 
 typedef struct binary_tree_node binary_tree_node_t;
 

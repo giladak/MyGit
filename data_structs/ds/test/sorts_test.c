@@ -1,9 +1,4 @@
-/*
-	dev : Gilad Kahn
-	rev : Vitali
-	status: approved
-	date: 04.02.22
-*/
+
 
 #include <stdio.h>  /*printf*/
 #include <stdlib.h> /*rand*/

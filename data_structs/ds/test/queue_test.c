@@ -1,10 +1,4 @@
-/**************************************************************************
-
-	dev : Gilad Kahn
-	rev: Yaniv Sne + Alon Levy
-	status: approved
-	date: 11.1.22
-*******************************************************************/	
+	
 
 #include <stdio.h>  /*printf*/
 #include <stdlib.h> /*size_t*/

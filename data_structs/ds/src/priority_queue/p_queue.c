@@ -1,11 +1,3 @@
-/**************************************************************************
-
-	dev : Gilad Kahn
-	rev: Vitali
-	status: approved
-	date: 18.1.22
-*******************************************************************/	
-
 
 #include <stdio.h>  /*size_t, for, while*/
 #include <stdlib.h> /*malloc, free*/

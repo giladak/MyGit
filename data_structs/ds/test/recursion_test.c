@@ -1,9 +1,4 @@
-/*
-	dev : Gilad Kahn
-	rev : Daniel Gabay
-	status: approved
-	date: 16.02.22
-*/
+
 
 #include <stdio.h>
 #include <stdlib.h>

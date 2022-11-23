@@ -1,10 +1,3 @@
-/*
-	dev : Gilad Kahn
-	rev : Vitali
-	status: approved
-	date: 04.02.22
-*/
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>

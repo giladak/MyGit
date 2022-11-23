@@ -1,9 +1,3 @@
-/*
-	dev : Gilad Kahn
-	rev : Yaniv Sne
-	status: approved
-	date: 10.2.22
-*/
 
 #include <stdio.h>
 

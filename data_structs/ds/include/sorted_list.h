@@ -1,10 +1,4 @@
-/**************************************************************************
 
-	dev : Gilad Kahn
-	rev: Vitali
-	status: approved
-	date: 18.1.22
-*******************************************************************/	
 
 	
 #ifndef SORTED_LINKED_LIST_H
@@ -13,8 +7,8 @@
 #include "doubly_linked_list.h"
 
 
-typedef struct sorted_list sorted_list_t; /*in the header- list*/
-typedef struct sorted_list_iterator sorted_list_iterator_t; /*in the header*/
+typedef struct sorted_list sorted_list_t; 
+typedef struct sorted_list_iterator sorted_list_iterator_t; 
 
 
 
@@ -23,10 +17,10 @@ struct sorted_list_iterator
 {
     dll_iterator_t doubly_iter;
     #ifndef NDEBUG
-    sorted_list_t *list;/*gdb*/
+    sorted_list_t *list;
     #endif
     
-};/*sdll_t_node*/
+};
 
 
 

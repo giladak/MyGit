@@ -1,9 +1,3 @@
-/*
-	dev :
-	rev :
-	status:
-	date:
-*/
 
 #include <stdio.h>	/*for*/
 #include <stdlib.h> /*malloc*/
@@ -35,6 +29,13 @@ static size_t CalculateChildIndex(size_t current_index, int side);
 static int FindIndex (heap_t *heap, int(*is_matched)(const void *data, const void *param), const void *param);
 
 static void GenericSwap(void *p1, void *p2, size_t size);
+
+
+
+
+
+
+
 
 /***********************heap create******************************/
 heap_t *HeapCreate(int (*cmp)(const void *data1, const void *data2), size_t capacity)

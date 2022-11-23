@@ -1,10 +1,4 @@
-/**************************************************************************
 
-	dev : Gilad Kahn
-	rev: Daniel Gabay
-	status: approved
-	date: 10.1.22
-*******************************************************************/
 
 #include <stdio.h>  /*printf*/
 #include <stdlib.h> /*size_t*/

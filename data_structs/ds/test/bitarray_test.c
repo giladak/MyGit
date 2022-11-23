@@ -1,8 +1,3 @@
-/*
-	dev: Gilad Kahn
-	review: 
-	status: 
-*/
 
 
 #include <stdio.h>  /*printf*/

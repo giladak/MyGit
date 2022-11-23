@@ -1,10 +1,3 @@
-/*
-	dev : Gilad Kahn
-	rev : Alon Twig
-	status: approved
-	date: 06.03.22
-*/
-
 
 #ifndef KNGHITS_TOUR_H
 #define KNGHITS_TOUR_H

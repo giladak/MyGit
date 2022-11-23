@@ -1,9 +1,3 @@
-/*
-	dev : Gilad Kahn
-	rev : Sara Shushan
-	status: approved
-	date: 7.3.22
-*/
 
 #include <stdio.h> /*for*/
 #include <stdlib.h> /*malloc, atoi*/

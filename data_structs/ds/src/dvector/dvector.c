@@ -1,11 +1,3 @@
-/*
-	dev : Gilad Kahn
-	rev: Nimrod
-	date: 5.1.22
-	status: approved
-*/
-
-
 #include <string.h>  /*memcpy*/
 #include <stdlib.h> /*size_t*/
 #include <assert.h> /*assert*/

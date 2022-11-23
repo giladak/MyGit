@@ -1,9 +1,4 @@
-/*
-    dev : Gilad Kahn
-    rev : Nimrod Segev
-    status: approved
-    date: 21.2.22
-*/
+
 
 #include <stdio.h>
 
